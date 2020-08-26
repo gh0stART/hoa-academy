@@ -1,0 +1,50 @@
+#main-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#newslist {
+    padding: 1rem;
+}
+
+.story {
+    margin-bottom: 1.5rem;
+}
+
+
+.post {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-top: 0.1rem solid rgba(13, 49, 64, 0.5);
+}
+
+.post iframe {
+    width: 27vw;
+    height: 15vw;
+}
+
+.description {
+    width: 70%;
+    padding: 0 2rem; 
+    text-align: left;
+}
+
+.timestamp {
+    font-size: 0.8rem;
+    margin: 0.2rem;
+}
+
+#pagelist {
+    width: 25%;
+    color: rgba(207, 210, 219, 1);
+    background-color: rgba(13, 49, 64, 0.5);
+    padding: 0.25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#current {
+    color: rgba(13, 49, 64, 1);
+}

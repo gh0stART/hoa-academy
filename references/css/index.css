@@ -1,0 +1,46 @@
+
+html {
+    height: 100%;
+    background-image: url("../images/brick.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    justify-content: center;
+}
+
+
+main h2 {
+    color: rgba(13, 49, 64, 1);
+}
+
+#welcome {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#agreement {
+    width: 80%;
+    background-color: rgba(207, 210, 219, 0.85);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    margin: 10% auto;
+}
+
+button {
+    font-size: 1.5rem;
+    color: rgba(207, 210, 219, 1);
+    background-color: rgba(13, 49, 64, 1);
+    width: 20%;
+    padding: 0.25rem;
+}
+

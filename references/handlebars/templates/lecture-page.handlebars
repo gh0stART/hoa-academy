@@ -1,0 +1,39 @@
+{{#each lectures}}
+    <div id="chapter{{chapter}}" class="lecture">
+        <div class="head">
+            <h2>Chapter {{chapter}} - {{title}}</h2>
+             <h2 class="timestamp">{{timeStamp}}</h2>
+        </div>
+        
+        <div class="video">
+             <iframe src={{videoSrc}} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <p class="description">{{description}}</p>
+
+        <footer>
+            <div class="redirect">
+                <div>
+                    {{#if prev.page}}
+                        <a href="../page{{prev.page}}" title="Previous Page"><span class="nav-arrow">&#171;</span> Previous Page</a>
+                    {{/if}}
+
+                    {{#if prev.chapter}}
+                        <a href="#chapter{{prev.chapter}}" title="Previous"><span class="nav-arrow">&#8249;</span> Previous Chapter</a>
+                    {{/if}}
+                </div>
+                
+                <div>
+                    {{#if next.chapter}}
+                        <a href="#chapter{{next.chapter}}" title="Next">Next Chapter <span class="nav-arrow">&#8250;</span></a>
+                    {{/if}}
+
+                    {{#if next.page}}
+                        <a href="../page{{next.page}}" title="Next Page">Next Page <span class="nav-arrow">&#187;</span></a>
+                    {{/if}}
+                </div>
+            </div>
+            <p>&copy; 2012-2013 HOA Academy</p>
+        </footer>
+    </div>
+{{/each}}

@@ -1,0 +1,35 @@
+#main-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.article {
+    margin: 1rem 0;
+}
+
+
+.post {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-top: 0.1rem solid rgba(13, 49, 64, 0.5);
+}
+
+.post img {
+    width: 30%;
+    height: auto;
+}
+
+.post article {
+    width: 70%;
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.description {
+    margin: 0;
+}
+
+.more {
+    color: rgba(13, 49, 64, 1);
+}
