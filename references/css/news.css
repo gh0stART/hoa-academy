@@ -27,6 +27,9 @@
 .description {
     width: 70%;
     padding: 0 2rem; 
+    margin: 0;
+    max-height: 15vw;
+    overflow: auto;
     text-align: left;
 }
 
@@ -47,4 +50,21 @@
 
 #current {
     color: rgba(13, 49, 64, 1);
+}
+
+@media only screen and (orientation: portrait) {
+    .post {
+        flex-direction: column;
+    }
+
+    .post iframe {
+        width: 45vw;
+        height: 25vw;
+    }
+
+    .description {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0 0;
+    }
 }

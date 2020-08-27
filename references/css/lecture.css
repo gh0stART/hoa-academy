@@ -45,10 +45,39 @@ iframe {
     border-radius: 1rem;
 }
 
+.description {
+    max-height: 20%;
+    overflow: auto;
+}
+
 footer {
     width: 100%;
 }
 
 footer p {
     margin: 0;
+}
+
+/* Media Queries */ 
+@media only screen and (orientation: portrait) {
+    .redirect div {
+        display: flex;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    iframe {
+        width: 63vw;
+        height: 35vw;
+    }
+
+    footer p {
+        padding: 2rem;
+    }
 }

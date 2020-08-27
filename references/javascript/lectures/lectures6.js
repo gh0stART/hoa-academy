@@ -16,7 +16,7 @@ const context = {
 
         {   chapter: `52`,
             title: `Like a Drug`,
-            videoSrc: `https://www.youtube.com/embed/0HtWO5cnvXc?list=PLcTWdpxJUxUj0eva32uIK8UoljvBEO7xN`,
+            videoSrc: `https://www.youtube.com/embed/6-iurojbUwE?list=PLcTWdpxJUxUj0eva32uIK8UoljvBEO7xN`,
             timeStamp: `March 08, 2013`,
             description: `There are 3 major ways HOAs stalk the community members: 1) Someone(s) go around the
                 community looking for violations, 2) the management company has someone go around the

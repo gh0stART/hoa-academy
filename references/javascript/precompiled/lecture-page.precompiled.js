@@ -20,15 +20,15 @@ templates['lecture-page'] = template({"1":function(container,depth0,helpers,part
     + alias4(((helper = (helper = lookupProperty(helpers,"videoSrc") || (depth0 != null ? lookupProperty(depth0,"videoSrc") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"videoSrc","hash":{},"data":data,"loc":{"start":{"line":9,"column":25},"end":{"line":9,"column":37}}}) : helper)))
     + " frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n        </div>\r\n\r\n        <p class=\"description\">"
     + alias4(((helper = (helper = lookupProperty(helpers,"description") || (depth0 != null ? lookupProperty(depth0,"description") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data,"loc":{"start":{"line":12,"column":31},"end":{"line":12,"column":46}}}) : helper)))
-    + "</p>\r\n\r\n        <footer>\r\n            <div class=\"redirect\">\r\n                <div>\r\n"
+    + "</p>\r\n\r\n        <footer>\r\n            <div class=\"redirect\">\r\n                <div class=\"column-reverse\">\r\n"
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"prev") : depth0)) != null ? lookupProperty(stack1,"page") : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":17,"column":20},"end":{"line":19,"column":27}}})) != null ? stack1 : "")
     + "\r\n"
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"prev") : depth0)) != null ? lookupProperty(stack1,"chapter") : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":21,"column":20},"end":{"line":23,"column":27}}})) != null ? stack1 : "")
-    + "                </div>\r\n                \r\n                <div>\r\n"
+    + "                </div>\r\n                \r\n                <div class=\"column\">\r\n"
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"next") : depth0)) != null ? lookupProperty(stack1,"chapter") : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":27,"column":20},"end":{"line":29,"column":27}}})) != null ? stack1 : "")
     + "\r\n"
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,((stack1 = (depth0 != null ? lookupProperty(depth0,"next") : depth0)) != null ? lookupProperty(stack1,"page") : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":31,"column":20},"end":{"line":33,"column":27}}})) != null ? stack1 : "")
-    + "                </div>\r\n            </div>\r\n            <p>&copy; 2012-2013 HOA Academy</p>\r\n        </footer>\r\n    </div>\r\n";
+    + "                </div>\r\n            </div>\r\n            <p>&copy; 2012-2013 HOA Academy</p>\r\n            <p>Website by <a href=\"https://gh0start.com\">Allison Harmon</a> | Web hosting by Phasematter</p>\r\n        </footer>\r\n    </div>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -81,6 +81,6 @@ templates['lecture-page'] = template({"1":function(container,depth0,helpers,part
         return undefined
     };
 
-  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"lectures") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":0},"end":{"line":39,"column":9}}})) != null ? stack1 : "");
+  return ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"lectures") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":0},"end":{"line":40,"column":9}}})) != null ? stack1 : "");
 },"useData":true});
 })();

@@ -60,13 +60,8 @@ p {
     margin: 1rem 0;
 }
 
-
-
-#jumbohead {
-    background-image: url('../images/neighborhood.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+#portrait {
+    display: none;
 }
 
 header {
@@ -123,4 +118,29 @@ main {
     right: 0;
 }
 
+footer {
+    width: 100%;
+    margin: 1rem 0;
+}
 
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: rgba(72, 97, 111, 1);
+}
+
+
+/* Media Queries*/ 
+@media only screen and (orientation: portrait) {
+    html {
+        font-size: 30px;
+    }
+
+    nav {
+        font-size: 0.66rem;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+}

@@ -16,6 +16,11 @@ nav {
     justify-content: center;
 }
 
+main {
+    height: 95%;
+    overflow: auto;
+}
+
 
 main h2 {
     color: rgba(13, 49, 64, 1);
@@ -44,3 +49,29 @@ button {
     padding: 0.25rem;
 }
 
+/* Media Queries */
+@media only screen and (max-width: 1500px) {
+    html {
+        height: 100%;
+        background-image: url("../images/brick-mobile.jpg");
+        background-position: center bottom;
+    }
+
+    #portrait {
+        display: block;
+        color: rgba(13, 49, 64, 1);
+        background-color: rgba(13, 49, 64, 0.3);
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border-top: 0.25rem solid rgba(13, 49, 64, 1);
+        border-bottom: 0.25rem solid rgba(13, 49, 64, 1);
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
+}

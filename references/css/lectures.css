@@ -24,9 +24,15 @@ h4 {
 
 .lecture p {
     height: 50px;
-    font-size: 0.9rem;
+    overflow: auto;
+    font-size: 0.7rem;
     padding: 0.5rem;
     margin: 0;
 }
 
-
+@media only screen and (orientation: portrait) {
+    .lecture {
+        width: 30%;
+        margin: 0.4rem;
+    }
+}

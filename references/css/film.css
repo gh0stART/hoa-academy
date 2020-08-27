@@ -19,3 +19,10 @@ iframe {
     border: 0.5rem solid rgba(13, 49, 64, 1);
     border-radius: 1rem;
 }
+
+@media only screen and (orientation: portrait) {
+    iframe {
+        width: 63vw;
+        height: 35vw;
+    }
+}

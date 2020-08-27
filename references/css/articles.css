@@ -10,7 +10,7 @@
 
 .post {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 1rem;
     border-top: 0.1rem solid rgba(13, 49, 64, 0.5);
 }
@@ -26,10 +26,31 @@
     text-align: left;
 }
 
+.post a {
+    color: rgba(72, 97, 111, 1);
+}
+
 .description {
     margin: 0;
 }
 
 .more {
     color: rgba(13, 49, 64, 1);
+}
+
+@media only screen and (orientation: portrait) {
+    .post {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post img {
+        width: 50%;
+    }
+
+    .post article {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0 0;
+    }
 }
